@@ -6,7 +6,7 @@ if [ "$(id -u)" -ne 0 ]; then
     exit 1
 fi
 sudo systemctl stop rl-swarm.service
-rm -rf officialauto.zip nonofficialauto.zip systemd.zip systemd2.zip
+rm -rf officialauto.zip nonofficialauto.zip systemd.zip systemd2.zip systemd3.zip systemd4.zip
 rm -rf original.zip original2.zip ezlabs.zip ezlabs2.zip ezlabs3.zip ezlabs4.zip ezlabs5.zip ezlabs6.zip ezlabs7.zip ezlabs8.zip
 
 sudo apt-get install -y unzip
