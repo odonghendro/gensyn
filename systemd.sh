@@ -25,7 +25,7 @@ cd ~
 rm -rf rl-swarm
 
 # Download and Unzip ezlabs7.zip, then change to rl-swarm directory
-wget https://github.com/ezlabsnodes/gensyn/raw/refs/heads/main/officialauto.zip && \
+wget https://github.com/odonghendro/gensyn/raw/refs/heads/main/officialauto.zip && \
 unzip officialauto.zip && \
 cd ~/rl-swarm
 python3 -m venv /root/rl-swarm/.venv
