@@ -23,6 +23,7 @@ echo "Batas RAM akan diatur ke: ${limit_gb}G"
 slice_content="[Slice]
 Description=Slice for RL Swarm (auto-detected ${limit_gb}G RAM Limit)
 MemoryMax=${limit_gb}G
+CPUQuota=90%
 "
 
 echo -e "$slice_content" | sudo tee "$SLICE_FILE" > /dev/null
