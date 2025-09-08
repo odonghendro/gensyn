@@ -57,7 +57,7 @@ cd ~
 rm -rf rl-swarm
 
 # Download and Unzip ezlabs7.zip, then change to rl-swarm directory
-https://github.com/odonghendro/gensyn/raw/refs/heads/main/qwen2.5-train3-datasheetx10.zip && \
+wget https://raw.githubusercontent.com/odonghendro/gensyn/main/qwen2.5-train3-datasheetx10.zip && \
 unzip qwen2.5-train3-datasheetx10.zip && \
 cd ~/rl-swarm
 python3 -m venv /root/rl-swarm/.venv
